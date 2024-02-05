@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="HelloWorld.css" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div>
+      <p id="intro">你好，开放世界！</p>
+    </div>
+    <div>
+      <img alt="fellatio" src="img/fellatio.jpg" id="fellatio" height="400" />
+    </div>
+    <div>
+      <input type="button" id="introCtrl" value="fuck her!" />
+    </div>
+    <div>
+      <audio src="audio/123.mp3" controls>good music!</audio>
+    </div>
+    <div>
+      <video src="video/123.mp4" controls width="500">fuck her off!</video>
+    </div>
+    <div>
+      <form action="#" method="post">
+        <!--name即key，id用于关联label，按钮要有value-->
+        <table>
+          <tr>
+            <td>
+              <label for="userName">用户名：</label>
+            </td>
+            <td>
+              <input type="text" name="username" id="userName" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="passWord">密码：</label>
+            </td>
+            <td>
+              <input type="password" name="password" id="passWord" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>性别：</label>
+            </td>
+            <td>
+              <label> <input type="radio" name="gender" value="1" />男</label>
+              <label> <input type="radio" name="gender" value="2" />女</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>城市：</label>
+            </td>
+            <td>
+              <select name="city" title="请选择城市">
+                <option value="beijing">北京</option>
+                <option value="shanghai">上海</option>
+                <option value="guangzhou">广州</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <input type="submit" value="免费注册" />
+      </form>
+    </div>
+
+    <script src="HelloWorld.js"></script>
+  </body>
+</html>
